@@ -168,8 +168,47 @@ header img {
   font-size: 32px;
   font-weight: 700;
 }
-/* ===========Mobile responsive=========== */
-/* ============ Nav =========== */
+
+
+/*=================== Online Games Funny Videos=================s */
+.online-game {
+  margin-top: 100px;
+  max-width: 2000px;
+}
+.text-section {
+  margin-bottom: 48px;
+  text-align: center;
+  width: 100%;
+}
+.h4{
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img-text{
+  max-width: 2000px;
+  margin: 0 auto;
+  display:flex;
+}
+.single-div{
+  max-width: 2000px;
+  margin: 0 auto;
+  width: 300px;
+}
+.single-div img{
+  position: relative;
+  width: 300px;
+}
+.hoverImg:hover{
+  background: red;
+}
+.hoverImg{
+  position: relative;
+}
+
+/* ===========Nab Mobile responsive=========== */
 @media screen and (max-width: 576px) {
   nav {
     box-shadow: none;
@@ -203,9 +242,8 @@ header img {
     width: 85%;
     margin: 0 auto;
   }
-  .first-section img{
+  .first-section img {
     width: 100%;
-    
   }
   .header-text {
     position: absolute;
@@ -214,10 +252,9 @@ header img {
   }
 }
 
-
 /* =======================main section mobile responsive================= */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
   .we-are-gamer {
     display: flex;
     flex-direction: column;
@@ -232,4 +269,14 @@ header img {
     width: 90%;
     text-align: center;
   }
+  .img-text{
+    display: flex ;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .single-div img{
+    /* width: 400px; */
+    margin: 0 auto;
+  }
 }
+
