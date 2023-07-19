@@ -219,7 +219,10 @@ a {
   width: 450px;
 }
 .secondImg {
-  width: 470px;
+  position: absolute;
+  width: 250px;
+  right: 450px;
+  bottom: -70px;
 }
 .play-text-degien {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
